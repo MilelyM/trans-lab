@@ -1,1 +1,18 @@
-/* YeyeYeee código aquí */
+body{
+    background-color: rgb(52, 54, 54)
+}
+.logo{
+    width: 50%;
+    margin-top: 2em;
+}
+.caja{
+    background-color: white;
+}
+.btForm{
+    width: 100%;
+
+}
+span{
+    font-size: 3em;
+    font-weight: bolder;
+}
