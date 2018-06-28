@@ -1,10 +1,10 @@
 document.getElementById('btnsaldo').addEventListener('click',carga);
-let tarjeta=document.getElementById('numeroT').value
+let tarjeta=document.getElementById('numerot').value
 //let strtarjeta=tarjeta.toString();
 
-url='http://www.psep.cl/api/Bip.php?&numberBip=20795394' ;
+
 function carga(){
- 
+ url='http://www.psep.cl/api/Bip.php?&numberBip=20795394' ;
     fetch(url)
         .then(function(resp) {
           // console.log(resp)
@@ -17,7 +17,7 @@ function carga(){
         // let numeroTarjeta = data[0];
          let estadoContrato = data[1];
          let saldoTarjeta = data[2]
-           data[0] =document.getElementById('numeroT').value;
+           data[0] =document.getElementById('numerot').value;
          console.log(data);
            // console.log(estadoContrato);
            // console.log(saldoTarjeta);
