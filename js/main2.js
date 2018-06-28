@@ -4,12 +4,12 @@ let tarjeta=document.getElementById('numerot').value
 
 
 function carga(){
- url='http://www.psep.cl/api/Bip.php?&numberBip=20795394' ;
+ url='http://www.psep.cl/api/Bip.php?&numberBip=89515804' ;
     fetch(url)
+    
         .then(function(resp) {
-          // console.log(resp)
             return resp.json();
- 
+  
         })
         .then(function (valores) {
         let data = Object.values(valores)
@@ -30,10 +30,13 @@ function carga(){
        // .catch(e => console.log(e))
       
 }
-/*function muestra(){
-    if(url='http://www.psep.cl/api/Bip.php?&numberBip='){
-        let str='';
-        url
-
+/*function muestra(resp){
+             for(key in resp){
+                if(key===url){
+   let nuevourl= url+`${numerot}`
+             console.log(nuevourl);     
+             }
+            }
     }
-}*/
+
+*/
