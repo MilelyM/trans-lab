@@ -8,7 +8,7 @@ document.getElementById('btnsaldo').addEventListener('click',carga);
 function carga(){
     let tarjeta=document.getElementById('numerot').value
 
-    fetch(`https://www.psep.cl/api/Bip.php?&numberBip=${tarjeta}`)
+    fetch(`http://www.psep.cl/api/Bip.php?&numberBip=${tarjeta}`)
         .then(function(resp) {
             return resp.json();
   
