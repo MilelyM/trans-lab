@@ -33,5 +33,5 @@ function carga(){
 }
 document.getElementById('btnHome').addEventListener('click', function Redirect() {
 
-  window.location="file:///home/laboratoria/Escritorio/proyectos/trans-lab/index2.html";
+  window.location="https://milelym.github.io/trans-lab/index2.html";
 })
