@@ -27,8 +27,6 @@ function carga(){
             document.getElementById('cajaDeTexto').innerHTML= saldoTarjeta;
             
         })
-
-        .catch(e => console.log(e))
       
 }
 document.getElementById('btnHome').addEventListener('click', function Redirect() {
