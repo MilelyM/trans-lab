@@ -1,11 +1,12 @@
-*{
-    margin: 0%;
-    padding: 0%s;
-}
 body{
-    background-color: rgb(194, 202, 202);
+background-color:rgb(194, 202, 202);
 }
-.cajaid{
-width: 60%;
-height: auto;
+.waves-light{
+    width: 100%;
+}
+.container{
+    margin-top:  40%;
+}
+ambe{
+    color: #ffa000;
 }
