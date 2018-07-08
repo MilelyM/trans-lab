@@ -17,7 +17,7 @@ function carga(){
         .then(function (valores) {
         let data = Object.values(valores)
         console.log(valores);
-        // let numeroTarjeta = data[0];
+         let numeroTarjeta = data[0];
          let estadoContrato = data[1];
          let saldoTarjeta = data[2]
            data[0] =document.getElementById('numerot').value;
@@ -28,7 +28,7 @@ function carga(){
             
         })
 
-       // .catch(e => console.log(e))
+        .catch(e => console.log(e))
       
 }
 document.getElementById('btnHome').addEventListener('click', function Redirect() {
