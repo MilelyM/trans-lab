@@ -6,6 +6,8 @@ section{
 
 }
 .imgperfil{
-    max-width: 50%;
-    height: auto;
+    max-width: 40% !important;
+    height: auto !important;
+    margin:1em;
+   
 }

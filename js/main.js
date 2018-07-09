@@ -10,7 +10,7 @@ if((document.getElementById('icon_email').value === '') || (document.getElementB
     let email = document.getElementById('icon_email').value;
     let password = document.getElementById('icon_password').value;
     localStorage.setItem(email,password); //En este punto guardo nombre y comment en mi local storage
-    window.location="https://milelym.github.io/trans-lab/index2.html";
+    window.location="file:///home/laboratoria/Escritorio/proyectos/trans-lab/index2.html";
 }
 })
 }
